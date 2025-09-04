@@ -20,11 +20,11 @@ Please select a model and fill out the form below to see the results.
 """)
 
 # Define model paths (from the second code)
-MODEL_DIR = r".\Models"
+MODEL_DIR = r"./Models"
 MODEL_PATHS = {
-    'MathScore': f"{MODEL_DIR}\linearRegressionForMath.pkl",
-    'ReadingScore': f"{MODEL_DIR}\linearRegressionForReading.pkl",
-    'WritingScore': f"{MODEL_DIR}\linearRegressionForWriting.pkl"
+    'MathScore': f"{MODEL_DIR}/linearRegressionForMath.pkl",
+    'ReadingScore': f"{MODEL_DIR}/linearRegressionForReading.pkl",
+    'WritingScore': f"{MODEL_DIR}/linearRegressionForWriting.pkl"
 }
 
 # Model selection
