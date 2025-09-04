@@ -50,13 +50,14 @@ The system uses the following input features to make predictions:
 ## Project Structure
 
 student-score-predictor/
-│
-├── app.py # Main Streamlit application
-├── requirements.txt # Python dependencies
-├── linearRegressionForMath.pkl # Trained model for Math
-├── linearRegressionForReading.pkl # Trained model for Reading
-├── linearRegressionForWriting.pkl # Trained model for Writing
-└── README.md # Project documentation
+
+- │
+- ├── app.py # Main Streamlit application
+- ├── requirements.txt # Python dependencies
+- ├── linearRegressionForMath.pkl # Trained model for Math
+- ├── linearRegressionForReading.pkl # Trained model for Reading
+- ├── linearRegressionForWriting.pkl # Trained model for Writing
+- └── README.md # Project documentation
 
 ## Dependencies
 
