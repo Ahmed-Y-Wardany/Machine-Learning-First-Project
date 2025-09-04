@@ -20,7 +20,7 @@ Please select a model and fill out the form below to see the results.
 """)
 
 # Define model paths (from the second code)
-MODEL_DIR = r"C:/Users/ahmed\Desktop/Educational/Traininges/Industrial Trainning-1/Project-1/Models/"
+MODEL_DIR = r"C:/Users/ahmed\Desktop/GitHub/Machine-Learning-First-Project/Models/"
 MODEL_PATHS = {
     'MathScore': os.path.join(MODEL_DIR, "linearRegressionForMath.pkl"),
     'ReadingScore': os.path.join(MODEL_DIR, "linearRegressionForReading.pkl"),
