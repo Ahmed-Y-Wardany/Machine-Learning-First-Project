@@ -60,9 +60,9 @@ student-score-predictor/
 │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── Expanded_data_with_more_features.csv # Used Dataset <br />
 │ <br />
 └──Models # Directory for trained models <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── linearRegressionForMath.pkl # Trained model for Math <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── linearRegressionForReading.pkl # Trained model for Reading <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── linearRegressionForWriting.pkl # Trained model for Writing <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── linearRegressionForMath.pkl # Trained model for Math <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── linearRegressionForReading.pkl # Trained model for Reading <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── linearRegressionForWriting.pkl # Trained model for Writing <br />
 
 ## Dependencies
 
