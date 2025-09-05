@@ -19,7 +19,7 @@ This application predicts student scores based on their demographic and academic
 Please select a model and fill out the form below to see the results.
 """)
 
-# Define model paths (from the second code)
+# Define model paths
 MODEL_DIR = r"./Models"
 MODEL_PATHS = {
     'MathScore': f"{MODEL_DIR}/linearRegressionForMath.pkl",
@@ -42,7 +42,7 @@ model_mapping = {
 
 target_variable = model_mapping[model_option]
 
-# Define encoding mappings (from the second code)
+# Define encoding mappings
 encoding_mappings = {
     'Gender': {'male': 1, 'female': 0},
     'EthnicGroup': {'group A': 0, 'group B': 1, 'group C': 2, 'group D': 3, 'group E': 4},
@@ -142,10 +142,10 @@ with st.form("student_info_form"):
         
     with col2:
         st.subheader("Family & Study Information")
-        parent_marital_status = st.selectbox("Parent Marital Status", ["married", "single", "divorced", "widowed"])
+        parent_marital_status = st.selectbox("Parent Marital Status", ["married", "single", "divorced"])
         practice_sport = st.selectbox("Practice Sport", ["never", "sometimes", "regularly"])
         is_first_child = st.radio("Is First Child", ["yes", "no"])
-        transport_means = st.radio("Transportation Means", ["private", "school_bus", "public"])
+        transport_means = st.radio("Transportation Means", ["private", "school_bus"])
         wkly_study_hours = st.selectbox("Weekly Study Hours", ["> 10", "5 - 10", "< 5"])
         
         st.subheader("Existing Scores")
