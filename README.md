@@ -1,6 +1,6 @@
 # Student Score Prediction System
 
-This project implements a machine learning system to predict student scores in Math, Reading, and Writing based on various demographic and educational factors. The system uses Linear Regression models and provides a user-friendly web interface built with Streamlit.
+This project implements a machine learning system to predict student scores in Math, Reading, and Writing based on various demographic and educational factors. The system uses Linear Regression models and provides a user-friendly web interface built with Streamlit, Click[ Here ](https://machine-learning-first-project-ayw.streamlit.app/)To Try Streamlit UI.
 
 ## Features
 
@@ -53,11 +53,16 @@ student-score-predictor/
 
 - │
 - ├── app.py # Main Streamlit application
+- ├── Main_Notebook.ipynb # Jupyter Notebook used to train models
+- ├── README.md # Project documentation
 - ├── requirements.txt # Python dependencies
-- ├── linearRegressionForMath.pkl # Trained model for Math
-- ├── linearRegressionForReading.pkl # Trained model for Reading
-- ├── linearRegressionForWriting.pkl # Trained model for Writing
-- └── README.md # Project documentation
+- ├──Data
+- │ └── Expanded_data_with_more_features.csv # Used Dataset
+- │
+- └──Models # Directory for trained models
+-     ├── linearRegressionForMath.pkl # Trained model for Math
+-     ├── linearRegressionForReading.pkl # Trained model for Reading
+-     └── linearRegressionForWriting.pkl # Trained model for Writing
 
 ## Dependencies
 
@@ -69,8 +74,9 @@ The project requires the following Python libraries:
 - numpy
 - matplotlib
 - seaborn
+- joblib
 
-See `requirements.txt` for specific versions.
+Use `requirements.txt` to install libraries.
 
 ## Contributing
 
