@@ -1,6 +1,6 @@
 # Student Score Prediction System
 
-This project implements a machine learning system to predict student scores in Math, Reading, and Writing based on various demographic and educational factors. The system uses Linear Regression models and provides a user-friendly web interface built with Streamlit, Click [Here](https://machine-learning-first-project-ayw.streamlit.app/){:target="_blank"} To Try Streamlit UI.
+This project implements a machine learning system to predict student scores in Math, Reading, and Writing based on various demographic and educational factors. The system uses Linear Regression models and provides a user-friendly web interface built with Streamlit, Click [Here](https://machine-learning-first-project-ayw.streamlit.app/) To Try Streamlit UI.
 
 ## Features
 
