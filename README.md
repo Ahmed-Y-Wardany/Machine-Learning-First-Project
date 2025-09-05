@@ -57,12 +57,12 @@ student-score-predictor/
 ├── README.md # Project documentation <br />
 ├── requirements.txt # Python dependencies <br />
 ├──Data <br />
-│    └── Expanded_data_with_more_features.csv # Used Dataset <br />
+│&nbsp;└── Expanded_data_with_more_features.csv # Used Dataset <br />
 │ <br />
 └──Models # Directory for trained models <br />
-     ├── linearRegressionForMath.pkl # Trained model for Math <br />
-     ├── linearRegressionForReading.pkl # Trained model for Reading <br />
-     └── linearRegressionForWriting.pkl # Trained model for Writing <br />
+&nbsp;├── linearRegressionForMath.pkl # Trained model for Math <br />
+&nbsp;├── linearRegressionForReading.pkl # Trained model for Reading <br />
+&nbsp;└── linearRegressionForWriting.pkl # Trained model for Writing <br />
 
 ## Dependencies
 
