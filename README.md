@@ -1,6 +1,6 @@
 # Student Score Prediction System
 
-This project implements a machine learning system to predict student scores in Math, Reading, and Writing based on various demographic and educational factors. The system uses Linear Regression models and provides a user-friendly web interface built with Streamlit, Click[ Here ](https://machine-learning-first-project-ayw.streamlit.app/)To Try Streamlit UI.
+This project implements a machine learning system to predict student scores in Math, Reading, and Writing based on various demographic and educational factors. The system uses Linear Regression models and provides a user-friendly web interface built with Streamlit, Click [Here](https://machine-learning-first-project-ayw.streamlit.app/) To Try Streamlit UI.
 
 ## Features
 
@@ -51,18 +51,18 @@ The system uses the following input features to make predictions:
 
 student-score-predictor/
 
-- │
-- ├── app.py # Main Streamlit application
-- ├── Main_Notebook.ipynb # Jupyter Notebook used to train models
-- ├── README.md # Project documentation
-- ├── requirements.txt # Python dependencies
-- ├──Data
-- │ └── Expanded_data_with_more_features.csv # Used Dataset
-- │
-- └──Models # Directory for trained models
--     ├── linearRegressionForMath.pkl # Trained model for Math
--     ├── linearRegressionForReading.pkl # Trained model for Reading
--     └── linearRegressionForWriting.pkl # Trained model for Writing
+│ <br />
+├── app.py # Main Streamlit application <br />
+├── Main_Notebook.ipynb # Jupyter Notebook used to train models <br />
+├── README.md # Project documentation <br />
+├── requirements.txt # Python dependencies <br />
+├──Data <br />
+│    └── Expanded_data_with_more_features.csv # Used Dataset <br />
+│ <br />
+└──Models # Directory for trained models <br />
+     ├── linearRegressionForMath.pkl # Trained model for Math <br />
+     ├── linearRegressionForReading.pkl # Trained model for Reading <br />
+     └── linearRegressionForWriting.pkl # Trained model for Writing <br />
 
 ## Dependencies
 
